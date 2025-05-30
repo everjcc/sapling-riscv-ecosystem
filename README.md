@@ -20,3 +20,11 @@
 
    Final output containing ecosystem maturity assessment.
 
+6. Experimental procedure (execute ./run.sh):
+
+   + Checking the ./metadata director,
+   + Looping through each “-Landscape.” file in it,
+   + Extracting the software name (e.g., CNTK from CNTK-Landscape.xlsx),
+   + Executing landscape-score.py with the argument –name ./metadata /<software_name> for analysis,
+   + Generating final results in output.xlsx.
+
